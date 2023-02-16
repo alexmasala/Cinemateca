@@ -1,5 +1,7 @@
 ## Cinemateca
  
+Obiectivul aplicației pentru lucrarea de licență își propune să ajute la informarea comunității de iubitori și creatori de film, extinzând accesibilitatea informațiilor printr-o aplicație mobilă care să livreze eficient informații cu privire la programul și disponibilitatea filmelor din cadrul cinematografelor. Aplicația este destinată în special cinefililor care își doresc să acceseze cu ușurință detaliile de la filmele solicitate prin înregistrarea în cadrul aplicației la o baza de date.
+
 Aplicația se deschide cu o pagina de Login in care are loc inregistrarea daca nu si-a facut cont deja. In pagina de Register sunt solicitate anumite informatii cu caracter personal cum ar fi
 nume, prenume, contul de email si parola. In urma inregistrarii utilizatorul se logheaza cu un user si parola.
 
