@@ -1,0 +1,130 @@
+<resources>
+    <string name="app_name">Cinemateca</string>
+    <string name="title_home">Home</string>
+    <string name="title_reservations">Reservations</string>
+    <string name="title_favorites">Favorites</string>
+    <string name="swipeButtonText">SWIPE TO RESERVE</string>
+    <string name="movieTitle">Title</string>
+    <string name="movieTime">13:30</string>
+    <string name="no_reservations_msg_header">No reservations yet</string>
+    <string name="no_favorites_msg_header">No favorites yet</string>
+    <string name="no_favorites_msg_body">Tap the heart icon on a film to add it to your favorites list.</string>
+    <string name="no_reservations_msg_body">Tap the RESERVE button on a film to make a reservation.</string>
+    <string name="new_here_create_account">New here? Create Account!</string>
+    <!--    MADA-->
+
+    <!--LOGIN & REGISTER-->
+    <string name="login_successfull">Login successful!</string>
+    <string name="login_failed">Login failed!</string>
+    <string name="mesaj_err_email_empty">Trebuie sa introduceti adresa de email!</string>
+    <string name="mesaj_date_conectare_invalide">Date de conectare invalide! Introduceti datele corecte</string>
+    <string name="mesaj_err_parola_empty">Trebuie introdusa parola!</string>
+    <string name="reg_failed">Registration failed! Please try again later</string>
+    <string name="reg_successfull">Registration successful!</string>
+    <string name="invalid_password">Password should be at least 6 characters long!</string>
+    <string name="format_invalid_email">Format email invalid!</string>
+    <string name="err_nume_empty">Numele trebuie completat!</string>
+    <string name="err_adresa_empty">Adresa trebuie completata!</string>
+    <string name="err_nr_telefon_invalid">Numarul de telefon introdus trebuie sa fie valid!</string>
+    <string name="err_telefon_empty">Trebuie intodus numarul de telefon!</string>
+
+
+    <string name="email">Email</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="register_to_bookstory">Register to bookstore</string>
+    <string name="nume_complet">Nume complet</string>
+    <string name="adresa">Adresa</string>
+    <string name="nr_telefon">Nr. telefon</string>
+    <string name="my_dashboard">My dashboard</string>
+    <string name="profile">Profile</string>
+    <string name="logout">Logout</string>
+    <string name="contact">Contact</string>
+    <string name="imprumuturi">Imprumuturi</string>
+    <string name="recommended">Recommended</string>
+    <string name="imprumuta_carti">Imprumuta carti</string>
+
+    <string name="search">Search</string>
+    <string name="add_film">Add film</string>
+    <string name="no_added_movie_msg_header">No added movie yet</string>
+    <string name="no_added_movie_msg_body">Tap the + button to add a movie.</string>
+    <string name="save_movie">Save movie</string>
+    <string name="introduce_movie_title">Type in movie title</string>
+    <string name="add_a_movie">Add a movie</string>
+    <string name="movie_title">Movie title</string>
+    <string name="list_movies">List of Movies</string>
+    <string name="salvare">Save movie</string>
+    <string name="salvare_cinema">Save cinema</string>
+    <string name="add_cinema">Add a cinema</string>
+    <string name="Log_out_successfull">Logged out successfully!</string>
+    <string name="failedMessage">Nu s-a putut insera</string>
+    <string name="settings">Settings</string>
+    <string name="rate_app">Rate the app</string>
+    <string name="rate_our_app">Rate the app</string>
+    <string name="your_opinoin_help_us_improve_our_servicies_if_you_liked_our_app_please_rate_us">Your opinoin help us improve our servicies. If you liked our app please rate us!</string>
+    <string name="light_dark_mode">Light/ Dark Mode</string>
+    <string name="switchButton">switchButton</string>
+    <string name="about">about</string>
+    <string name="devabout">Welcome!
+        "Masala Alexandra" is a registered Romanian company with headquarter in Bucharest.
+        \n\n
+        One of our most popular product is our platform "Aplicatie mobila cinemateca".
+        \n\n
+        For more information click on the link:
+        \n\n
+    </string>
+    <string name="link_to_the_website">
+        <a href="https://google.com"> Read more here</a>
+    </string>
+    <string name="about_app">About app</string>
+    <string name="Rate_Us">Rathe the app</string>
+
+
+    <string name="to">To:</string>
+    <string name="subject">Subject:</string>
+    <string name="send">Send</string>
+    <string name="email_msg_type">message/rfc822</string>
+    <string name="choose_app">Choose Mail App</string>
+    <string name="my_email">mireagmadalina@yahoo.com</string>
+
+    <string name="subiect">Subiect</string>
+    <string name="introdu_mesajul">Introdu mesajul</string>
+    <string name="contact_us">Contact us</string>
+    <string name="gen_film">Oras</string>
+    <string name="oras">Oras</string>
+    <string name="introduce_cinema_director">Introduce numele regizorului</string>
+    <string name="introdu_nr_sali_disponibile">Introdu nr. salilor disponibile</string>
+    <string name="numar_sali_disponibile">Numar sali disponibile</string>
+    <string name="introduce_cinema_title">Introdu numele cinematografului</string>
+    <string name="cinema_title">Numele cinematografului</string>
+    <string name="add_a_cinema">Adauga un cinematograf</string>
+
+
+    <string-array name="add_oras">
+        <item>Bucuresti</item>
+        <item>Constanta</item>
+        <item>Ploiesti</item>
+        <item>Timisoara</item>
+        <item>Brasov</item>
+        <item>Iasi</item>
+        <item>Suceava</item>
+        <item>Buzau</item>
+        <item>Galati</item>
+        <item>Craiova</item>
+        <item>Sibiu</item>
+    </string-array>
+
+    <string-array name="genres_array">
+        <item>All</item>
+        <item>Drama</item>
+        <item>Adventure</item>
+        <item>Animation</item>
+        <item>Horror</item>
+        <item>Comedy</item>
+        <item>Romance</item>
+        <item>Documentary</item>
+
+    </string-array>
+
+</resources>

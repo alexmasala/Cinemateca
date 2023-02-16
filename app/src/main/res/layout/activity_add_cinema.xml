@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical"
+        tools:context=".view.AddCinemaActivity">
+
+        <TextView
+            android:id="@+id/tvAddCinema"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_margin="10dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:gravity="center_horizontal"
+            android:text="@string/add_a_cinema"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewCinemaTitle"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_margin="10dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="@string/cinema_title"
+            android:textAlignment="viewStart"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editCinemaTitle"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginStart="12dp"
+            android:layout_margin="10dp"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:hint="@string/introduce_cinema_title"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/tvNrSali"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_margin="10dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="@string/numar_sali_disponibile"
+            android:textAlignment="viewStart"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etNrSali"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_margin="10dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:hint="@string/introdu_nr_sali_disponibile"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/tvOras"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_margin="10dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="@string/oras"
+            android:textAlignment="viewStart"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/spinnerOras"
+            android:layout_width="235dp"
+            android:layout_height="30dp"
+            android:layout_margin="10dp" />
+
+
+        <Button
+            android:id="@+id/btnSalvareCinema"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:background="@drawable/button_rounded_corners"
+            android:text="@string/salvare_cinema" />
+
+    </LinearLayout>
+</ScrollView>

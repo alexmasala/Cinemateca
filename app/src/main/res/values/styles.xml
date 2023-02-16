@@ -1,0 +1,31 @@
+<resources>
+    <!-- Base application theme. -->
+<!--    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar"> Modificam Themeul-->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorBackground">@color/backgroundLight</item>
+    </style>
+
+    <!-- colors for the dark theme -->
+    <style name="AppThemeDark" parent="Theme.AppCompat">
+        <item name="colorPrimary">@color/colorDarkColorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorDarkPrimaryDark</item>
+        <item name="colorAccent">@color/colordarkColorAccent</item>
+        <item name="colorBackground">@color/backgroundDark</item>
+    </style>
+
+<!--    <style name="AppThemeDark.NoActionBar">-->
+<!--        <item name="windowActionBar">false</item>-->
+<!--        <item name="windowNoTitle">true</item>-->
+<!--&lt;!&ndash;        <item name="colorPrimary">@color/colorDarkColorPrimary</item>&ndash;&gt;-->
+<!--&lt;!&ndash;        <item name="colorPrimaryDark">@color/colorDarkPrimaryDark</item>&ndash;&gt;-->
+<!--&lt;!&ndash;        <item name="colorAccent">@color/colordarkColorAccent</item>&ndash;&gt;-->
+<!--&lt;!&ndash;        <item name="android:windowBackground">@color/backgroundDark</item>&ndash;&gt;-->
+<!--    </style>-->
+<!--    <style name="AppTheme.Dark.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />-->
+<!--    <style name="AppTheme.Dark.PopupOverlay" parent="ThemeOverlay.AppCompat" />-->
+
+</resources>

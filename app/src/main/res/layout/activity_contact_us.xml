@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:orientation="vertical"
+    tools:context=".view.ContactUsActivity">
+
+    <TextView
+        android:id="@+id/tvTo"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:paddingBottom="10dp"
+        android:text="@string/to"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/EditTextToMail"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/tvTo"
+        android:autofillHints="@string/email"
+        android:hint="@string/email"
+        android:inputType="text"
+        android:text="@string/my_email" />
+
+    <TextView
+        android:id="@+id/tvSubject"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvTo"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:paddingBottom="10dp"
+        android:text="@string/subject"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/EditTextSubiectMail"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/EditTextToMail"
+        android:layout_toEndOf="@+id/tvSubject"
+        android:autofillHints="@string/subiect"
+        android:hint="@string/subiect"
+        android:inputType="textEmailSubject" />
+
+    <EditText
+        android:id="@+id/EditTextMesajMail"
+        style="@style/EditTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_below="@+id/EditTextSubiectMail"
+        android:autofillHints="@string/introdu_mesajul"
+        android:gravity="top"
+        android:hint="@string/introdu_mesajul"
+        android:inputType="textCapSentences" />
+
+    <Button
+        android:id="@+id/btnTrimiteEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/EditTextMesajMail"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/button_rounded_corners"
+        android:drawableEnd="@drawable/ic_send"
+        android:text="@string/send" />
+
+</RelativeLayout>

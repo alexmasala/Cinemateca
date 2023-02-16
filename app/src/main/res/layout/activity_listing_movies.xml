@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:orientation="vertical"
+    tools:context=".view.ListingMoviesActivity">
+
+
+    <ListView
+        android:id="@+id/lvMoviesUser"
+        android:layout_width="match_parent"
+        android:layout_height="520dp"
+        tools:ignore="NestedScrolling" />
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:orientation="horizontal">
+
+        <Space
+            android:layout_width="300dp"
+            android:layout_height="match_parent" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/btnFinishReservation"
+            android:layout_width="wrap_content"
+            android:layout_height="400dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="30dp"
+            android:background="@color/teal_700"
+            android:clickable="true"
+            android:contentDescription="@string/list_movies"
+            android:focusable="true"
+            android:tint="@android:color/background_light"
+            app:srcCompat="@drawable/ic_baseline_done_24" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
